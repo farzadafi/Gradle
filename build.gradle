@@ -20,6 +20,8 @@ dependencies {
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
 
     implementation group: 'org.json', name: 'json', version: '20090211'
+
+    implementation group: 'net.sf.dozer', name: 'dozer', version: '5.4.0'
 }
 
 test {
